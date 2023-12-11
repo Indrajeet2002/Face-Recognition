@@ -1,0 +1,8 @@
+title: Face-Recognition
+repository-code: https://github.com/Indrajeet2002/Face-Recognition
+version: '1.0'
+date-released: 2023-12-11
+authors:
+  - given-names: Indrajeet
+    family-names: Patwardhan
+cff-version: 1.2.0
