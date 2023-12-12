@@ -12,7 +12,7 @@ from sklearn.datasets import fetch_lfw_people
 # Record the start time
 start_time = time()
 
-# Load the ORL Faces dataset
+# Load the LFW Faces dataset
 faces_data = fetch_lfw_people(min_faces_per_person=20, resize=0.4)
 X = faces_data.images  # Face images
 y = faces_data.target  # Target labels (unique integer IDs)

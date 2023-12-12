@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.svm import SVC
 import time
 
-# Load the ORL Faces dataset
+# Load the LFW Faces dataset
 lfw_people = fetch_lfw_people(min_faces_per_person=20, resize=0.4)
 X = lfw_people.data
 y = lfw_people.target
